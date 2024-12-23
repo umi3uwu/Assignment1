@@ -13,7 +13,7 @@ type FullTimeEmployee struct {
 }
 
 func (f FullTimeEmployee) GetDetails() string {
-	return fmt.Sprintf("FullTimeEmployee - ID: %d, Name: %s, Salary: %d", f.ID, f.Name, f.Salary)
+	return fmt.Sprintf("Full Time Employee - ID: %d, Name: %s, Salary: %d", f.ID, f.Name, f.Salary)
 }
 
 type PartTimeEmployee struct {
@@ -24,7 +24,7 @@ type PartTimeEmployee struct {
 }
 
 func (p PartTimeEmployee) GetDetails() string {
-	return fmt.Sprintf("PartTimeEmployee - ID: %d, Name: %s, HourlyRate: %d, HoursWorked: %.1f", p.ID, p.Name, p.HourlyRate, p.HoursWorked)
+	return fmt.Sprintf("Part Tim eEmployee - ID: %d, Name: %s, Hourly Rate: %d, Hours Worked: %.1f", p.ID, p.Name, p.HourlyRate, p.HoursWorked)
 }
 
 type Company struct {
