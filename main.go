@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/umi3uwu/Assignment1/tree/master/Library"
+	"github.com/umi3uwu/Assignment1/Library"
 )
 
 func main() {
