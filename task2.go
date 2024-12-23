@@ -1,0 +1,18 @@
+package main
+
+import (
+	"github.com/umi3uwu/Assignment1/Shapes"
+)
+
+func main() {
+	shapes := []shapes.Shape{
+		shapes.Rectangle{Length: 10, Width: 5},
+		shapes.Circle{Radius: 7},
+		shapes.Square{Length: 4},
+		shapes.Triangle{SideA: 3, SideB: 4, SideC: 5},
+	}
+
+	for _, shape := range shapes {
+		shapes.PrintShapeDetails(shape)
+	}
+}
